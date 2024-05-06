@@ -3,4 +3,9 @@ h3{
     background-color: blue;
     text-align: center;
 }
-/* External-css */
+body{
+    background-color: rgb(211, 202, 27);
+   background-image: url(image/download.jpg);
+   background-repeat: no-repeat;
+   background-position: right;
+}
