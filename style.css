@@ -1,18 +1,13 @@
 h1{
-    color: red;
-    background-color: rgb(79, 240, 16);
-    outline: 5px black solid;
-    margin: 30px;
-    outline-offset: 5px;
+    color: aqua;
+    background-color: black;
+    text-align: center;
+    
 }
 
-.outline{
-    width: 150px;
-    height: 130px;
-    background-color: blue;
-    margin: 70px;
-    outline-width: 10px;
-    outline-color: red;
-    outline-style: solid;
-    outline-offset: 30px;
+p{
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+
 }
