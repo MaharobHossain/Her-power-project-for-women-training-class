@@ -1,20 +1,17 @@
-h1{
-    color: aqua;
-    background-color: black;
-    text-align: center;
-    word-spacing: 25px;
-    letter-spacing: 8px;
-    line-height: 70px;
-    
-}
-
 p{
-    color: white;
-    background-color: black;
-    text-transform: lowercase;
-    text-indent: 50px;
-    line-height: 40px;
-    word-spacing: 20px;
-    letter-spacing: 5px;
 
+    /* font-family:'Courier New', Courier, monospace; */
+
+
+    font-family: "Tiro Bangla", serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
+h1{
+    font-family: "Tiro Bangla", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
