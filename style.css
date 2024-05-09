@@ -2,12 +2,19 @@ h1{
     color: aqua;
     background-color: black;
     text-align: center;
+    word-spacing: 25px;
+    letter-spacing: 8px;
+    line-height: 70px;
     
 }
 
 p{
     color: white;
     background-color: black;
-    text-transform: uppercase;
+    text-transform: lowercase;
+    text-indent: 50px;
+    line-height: 40px;
+    word-spacing: 20px;
+    letter-spacing: 5px;
 
 }
