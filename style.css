@@ -1,34 +1,18 @@
-a{
+ul{
+    list-style-type:decimal-leading-zero;
+    color:red;
+
+}
+
+
+.list{
     color: black;
-    background-color: chartreuse;
-    font-size: 40px;
-    text-decoration: none;
+    list-style-position: inside;
+    list-style-image: url();
+}
+
+ol{
+    list-style-type:decimal-leading-zero;
+    color: brown;
     
-}
-a:hover{
-    color: white;
-    background-color: black;
-
-}
-
-a:active{
-    color: black;
-    background-color: yellow;
-}
-
-
-
-button{
-    color: black;
-    background-color:chartreuse;
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-button:hover{
-    color: white;
-    background-color: black;
-}
-button:active{
-    color: red;
-    background-color: green;
 }
