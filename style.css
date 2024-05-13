@@ -1,7 +1,11 @@
-table,th, td {
-    border: 3px brown solid ;
-    border-collapse: collapse;
-    width:100%;
-    text-align: left;
+h1{
+    color: brown;
+    text-align: center;
+    display: inline;
 }
-
+span{
+    display: block;
+}
+h2{
+    display: none;
+}
