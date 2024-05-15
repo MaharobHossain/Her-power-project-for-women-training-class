@@ -1,11 +1,12 @@
-h1{
-    color: brown;
-    text-align: center;
-    display: inline;
+.box1{
+    width: 500px;
+    border: 5px solid green;
+   
 }
-span{
-    display: block;
-}
-h2{
-    display: none;
+
+.box2{
+
+    max-width: 600px;
+    border: 4px solid blue;
+    
 }
