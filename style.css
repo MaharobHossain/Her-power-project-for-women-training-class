@@ -1,13 +1,9 @@
-.Name{
-    color: brown;
-    background-color: bisque;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 2px solid black;
-    margin-top: 50px;
-    position: fixed;
-    bottom: 0;
-
+.box1{
+    width: 150px;
+    height: 80px;
+    background-color: brown;
+    position: absolute;
     right: 0;
-
-
+    top: 0;
 }
+
