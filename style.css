@@ -1,14 +1,14 @@
-p::first-letter{
-    color: red;
-    font-size: 50px;
+.box1{
+    width: 220px;
+    height: 229px;
+    border: 5px solid black;
+    opacity: 1;
+    
 }
-p::first-line{
-    color: green;
-    font-size: 30px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 800;
-}
-
-h1::after{
-    content: url(star_icon.png);
+h1{
+    width: 400px;
+    background-color:blue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 1;
 }
