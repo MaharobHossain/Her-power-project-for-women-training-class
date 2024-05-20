@@ -1,26 +1,14 @@
-a{
-    background-color: chartreuse;
-    color: black;
+p::first-letter{
+    color: red;
+    font-size: 50px;
+}
+p::first-line{
+    color: green;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
 }
 
-a:hover{
-    background-color: black;
-    color: white;
+h1::after{
+    content: url(star_icon.png);
 }
-h1:nth-child(5){
-    color: red;
-    background-color: green;
-    text-align: center;
-    font-size: 33px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}
-
-/* h1:first-child{
-    color: red;
-    background-color: green;
-    text-align: center;
-    font-size: 33px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-} */
