@@ -1,29 +1,26 @@
-
-div{
-    float: right;
+a{
+    background-color: chartreuse;
+    color: black;
 }
 
-.box1{
-    width: 300px;
-    height: 200px;
+a:hover{
     background-color: black;
-    /* float: right; */
+    color: white;
 }
-.box2{
-    width: 300px;
-    height: 200px;
-    background-color: yellow;
-    /* float: right; */
-}
-.box3{
-    width:300px;
-    height: 200px;
+h1:nth-child(5){
+    color: red;
     background-color: green;
-    /* float: right; */
+    text-align: center;
+    font-size: 33px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
-.box4{
-    width: 300px;
-    height: 200px;
-    background-color: tomato;
-    /* float: right; */
-}
+
+/* h1:first-child{
+    color: red;
+    background-color: green;
+    text-align: center;
+    font-size: 33px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+} */
