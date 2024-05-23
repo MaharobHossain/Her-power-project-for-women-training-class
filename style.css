@@ -1,22 +1,19 @@
-h2{
-    color: blue;
-    background-color:rgb(88, 167, 42);
-    text-align: center;
+.box1{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    margin: 20px;
+}
+.box2{
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(80deg, #B33771, #55E6C1 );
 }
 
-h1{
-    background-color: #7fff00;
-    color: #000;
-    text-align: center;
-}
-h3{
-    text-align: center;
-    background-color: #b214de;
-    color: #22ed07;
-    
-}
-h4{
-    background-color: #b214de ;
-    color:#7fff00 ;
-    text-align: center;
+.box3{
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to left top, rgb(137, 192, 224), rgb(48, 52, 54),#5c9e4d , #52c7c3)
 }
