@@ -1,9 +1,11 @@
-table{
+h1{
+    color:chartreuse;
+    background-color: tomato;
     text-align: center;
-    margin: 30px;
 }
-.ttt{
-    color: black;
-    background-color: chartreuse;
+
+h2{
+    background-color: rgb(178, 232, 84);
     text-align: center;
+    color: rgb(50, 219, 205);
 }
