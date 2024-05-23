@@ -1,19 +1,21 @@
 .box1{
     width: 300px;
     height: 200px;
-    background-color: blue;
+    background: radial-gradient(rgb(82, 199, 199), rgb(212, 59, 161));
     margin: 20px;
 }
 .box2{
     margin: 20px;
     width: 300px;
-    height: 200px;
-    background: linear-gradient(80deg, #B33771, #55E6C1 );
+    height: 300px;
+    background: radial-gradient(red, green, blue);
+    
 }
 
 .box3{
     margin: 20px;
     width: 300px;
     height: 200px;
-    background: linear-gradient(to left top, rgb(137, 192, 224), rgb(48, 52, 54),#5c9e4d , #52c7c3)
+    background: radial-gradient(#18dcff, #4b4b4b, #d4b83b);
+    
 }
