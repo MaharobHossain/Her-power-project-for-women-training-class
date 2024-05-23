@@ -1,11 +1,22 @@
-h1{
-    color:chartreuse;
-    background-color: tomato;
+h2{
+    color: blue;
+    background-color:rgb(88, 167, 42);
     text-align: center;
 }
 
-h2{
-    background-color: rgb(178, 232, 84);
+h1{
+    background-color: #7fff00;
+    color: #000;
     text-align: center;
-    color: rgb(50, 219, 205);
+}
+h3{
+    text-align: center;
+    background-color: #b214de;
+    color: #22ed07;
+    
+}
+h4{
+    background-color: #b214de ;
+    color:#7fff00 ;
+    text-align: center;
 }
