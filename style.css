@@ -1,5 +1,14 @@
 h1{
-    font-size: 45px;
+    font-size: 43px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: -5px -5px 5px tomato;
+    text-align: center;
+    text-shadow: -5px -5px 6px  rgb(0, 255, 42);
+}
+p{
+    background-color: aqua;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: -3px -4px 5px rgb(74, 52, 99);
 }
