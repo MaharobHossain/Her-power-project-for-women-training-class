@@ -10,7 +10,7 @@ h1{
     background-color: tomato;
     margin: 100px auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    transform: skewY(30deg);
+    transform: translate(-200px,150px);
 }
 
 .box2{
@@ -20,5 +20,6 @@ h1{
     background-color:rgb(39, 219, 204);
     margin: 100px auto;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    transform:Skew(40deg) ;
+    transform: translateY(-300px) ;
+   
 }
