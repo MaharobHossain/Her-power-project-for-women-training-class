@@ -1,18 +1,24 @@
-.box{
-    width:95px;
-    height: 95px;
-    background-image: url(image/social.png);
-    background-position: 209px 97px;
-    border-radius: 70%;
+h1{
+    text-align: center;
+    font-size: 50px;
 }
 
-/* .box:hover{
-    width: 60px;
-    height: 60px;
-    background-position: 60px 60px;
-} */
-.box:hover{
-    width: 95px;
-    height: 95px;
-    background-position: 209px 0;
+.box1{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    background-color: tomato;
+    margin: 100px auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: rotate(40deg);
+}
+
+.box2{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    background-color:rgb(39, 219, 204);
+    margin: 100px auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: rotate(-40deg);
 }
