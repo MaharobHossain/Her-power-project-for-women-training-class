@@ -1,92 +1,80 @@
 h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 80px;
     color: red;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.animaton{
+
+.rrr{
     width: 400px;
-    height: 300px;
-    background-color: blue;
+    height: 400px;
+    border: 15px solid blue;
+    border-radius: 50%;
     margin: 100px auto;
-    position: relative;
-    animation-name: Square;
-    animation-duration: 3s;
-    animation-delay: 2s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-    animation-direction:alternate;
-    animation-fill-mode: backwards;
-    animation-play-state: running;
-
-
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    animation: round 3s 2s infinite forwards;
 }
-
-
-.animation2{
-    width: 400px;
-    height: 300px;
-    background-color:black;
-    margin: 100px auto;
-    position: relative;
-    animation: explore 3s 2s linear alternate-reverse backwards ;
-    animation-play-state: running;
-
-}
-
-@keyframes explore{
+@keyframes round{
     0%{
-        background-color: chartreuse;
-        left: 500px;
-        right: 500px;
-        border-radius: 50%;
-    }
-    50%{
-        background-color: darkred;
-        top: 300px;
-        bottom: 500px;
-        border-radius: 75%;
-    }
-    100%{
-        background-color: cyan;
-        left: 0;
-        right: -500px;
-    }
-}
-
-
-@keyframes Square{
-    0%{
-
-        background-color:aqua;
-        left: 0;
-        right: 0;
-        
+        border-color: rgb(243, 101, 0);
+        transform: scale(0.5);
     }
     25%{
-        background-color: chartreuse;
-        top: 500px;
-        bottom: 200px;
-        border-radius: 25%;
+        border-color: rgb(255, 0, 76);
+        transform: scale(1.5);
     }
     50%{
-     background-color: chocolate;
-     left: -500px;
-     right: 500px;
-     border-radius: 40%;
+        border-color: rgb(201, 247, 0);
+        transform: scale(0.5);
     }
     75%{
-        background-color: rgb(95, 33, 46);
-        left:0;
-        right: 500px;
-        border-radius: 60%;
+        border-color: rgb(7, 236, 198);
+        transform: scale(1.7);
+    }
+    100%{
+        border-color: rgb(5, 5, 5);
+        transform: scale(0.7);
+    }
+}
+
+.vvv{
+    width: 250px;
+    height: 250px;
+    border: 15px solid tomato;
+    animation: square 2s infinite alternate;
+    
+}
+@keyframes square{
+    0%{ 
+        border-color: blue;
+        /* transform: rotate(0deg); */
+        border-width: 20px;
+    }
+    25%{
+        border-color:chartreuse;
+        /* transform: rotate(25deg); */
+        border-width: 30px;
+    }
+    50%{
+        border-color:black;
+        /* transform: rotate(50deg); */
+        border-width: 15px;
+    }
+    75%{
+        border-color:brown;
+        /* transform: rotate(90deg); */
+        border-width: 25px;
 
     }
     100%{
-          background-color: forestgreen;
-          border-radius: 25%;
+        border-color:gold;
+        transform: rotate(5000deg);
     }
 }
+
 
 
 
