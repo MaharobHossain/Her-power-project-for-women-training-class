@@ -6,27 +6,48 @@ h1{
 }
 
 
-.flex{
-    background-color: aqua;
-    width: 100%;
-    height: 300px;
-    display: flex;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     text-align: center;
-    color:brown;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: flex;
-    flex-wrap: wrap-reverse;
-    flex-direction:row-reverse;
+    background-color: #eee;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
 }
 
-.flex > div{
-    width: 100px;
-    height: 40px;
-    background-color: #eee;
-    margin: 5px;
-    border: 1px solid #000;
-    padding: 5px;
+.grid{
+    width: 80%;
+    margin:10px auto;
+    border: 2px solid rgb(187, 184, 184);
+    display: grid;
+    grid-gap:15px;
+    grid-template-rows: 60px 90px 180px 60px;
+    grid-template-columns: repeat(3 ,1fr) 150px;
 }
-.flex > div:nth-child(2){
-    order: 5;
+.box1{
+    background-color: crimson;
+    grid-column: 1/-1;
+}
+.box2{
+    background-color:chartreuse;
+}
+.box3{
+    background-color:darkcyan;
+}
+.box4{
+    background-color: blue;
+}
+.box5{
+    background-color:dimgray;
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+.box6{
+    background-color:chocolate;
+    grid-column: 1/4;
+}
+.box7{
+    background-color:aqua;
+    grid-column: 1/-1;
 }
