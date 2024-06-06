@@ -1,53 +1,90 @@
-h1{
-    text-align: center;
-    font-size: 49px;
-    color:brown;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #bdbaba;
 }
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;
-    background-color: #eee;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+header{
+    width: 95%;
+    margin: 5px auto;
+    background-color:tomato;
     color: white;
 }
+.navbar img{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
+.navbar{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.navbar ul{
+    list-style: none;
+   
+}
+.navbar ul li{
+    background-color: #262626;
+    width: 160px;
+    border: 2px solid rgb(10, 236, 206);
+    height: 55px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    margin: 7px;
 
-.grid{
-    width: 80%;
-    margin:10px auto;
-    border: 2px solid rgb(187, 184, 184);
-    display: grid;
-    grid-gap:15px;
-    grid-template-rows: 60px 90px 180px 60px;
-    grid-template-columns: repeat(3 ,1fr) 150px;
 }
-.box1{
-    background-color: crimson;
-    grid-column: 1/-1;
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
 }
-.box2{
-    background-color:chartreuse;
+.navbar ul li:hover{
+    background-color: rgb(209, 18, 193);
+    transition: all ease-in-out 1s;
+
 }
-.box3{
-    background-color:darkcyan;
+.navbar ul ul{
+    display: none;
 }
-.box4{
-    background-color: blue;
+
+.navbar ul li:hover > ul{
+    display:block;
 }
-.box5{
-    background-color:dimgray;
-    grid-row: 2/4;
-    grid-column: 4/5;
+
+.navbar button{
+    background-color: yellow;
+    color: black;
+    width: 150px;
+    height: 55px;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    margin-left: 20px;
 }
-.box6{
-    background-color:chocolate;
-    grid-column: 1/4;
+.navbar button:hover{
+    background-color: aqua;
 }
-.box7{
-    background-color:aqua;
-    grid-column: 1/-1;
-}
+
+
+
+
+/* .logo h2{
+    font-size: 20px;
+    color: rgb(46, 63, 63);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+} */
