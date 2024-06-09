@@ -173,7 +173,19 @@ footer img:hover{
     padding: 20px;
     transform: rotate(20deg);
 }
+footer .icon i{
 
+    background-color: rgb(168, 28, 180);
+    color: rgb(0, 0, 0);
+    padding: 18px;
+    margin: 10px;
+    border-radius: 50px;
+}
+footer .icon i:hover{
+    background-color: rgb(221, 207, 15);
+    padding: 20px;
+    transform: rotate(20deg);
+}
 footer .copyright{
     background-color: black;
     font-size: 23px;
