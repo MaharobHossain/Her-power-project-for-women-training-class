@@ -1,90 +1,133 @@
+
 body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #bdbaba;
+    background-color: #ddd;
 }
 
+                  /* Header ar kaj Suru */
 header{
-    width: 95%;
-    margin: 5px auto;
-    background-color:tomato;
-    color: white;
+    width: 90%;
+   background-color: black;
+   color: white;margin: 10px auto;
 }
-.navbar img{
-    width: 50px;
-    height: 50px;
-    margin: 15px;
+.logo h2{
+    font-size: 35px;
+    color: brown;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .navbar{
- display: flex;
- justify-content: center;
- align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .navbar ul{
     list-style: none;
-   
 }
 .navbar ul li{
     background-color: #262626;
     width: 160px;
-    border: 2px solid rgb(10, 236, 206);
-    height: 55px;
-    line-height: 60px;
-    text-transform: uppercase;
+    border: 1px solid #fff;
+    height: 70px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     float: left;
     color: white;
-    font-size: 19px;
+    font-size: 23px;
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
     position: relative;
-    margin: 7px;
-
+    line-height: 80px;
 }
 .navbar ul li a{
-    color: white;
     text-decoration: none;
-    justify-content: center;
+    color: white;
     text-align: center;
+    justify-content: center;
     align-items: center;
-    
 }
-.navbar ul li:hover{
-    background-color: rgb(209, 18, 193);
-    transition: all ease-in-out 1s;
 
+.navbar ul li:hover{
+    background-color:rgb(228, 7, 7);
+    transition: all ease-in-out 1.5s ;
 }
 .navbar ul ul{
     display: none;
 }
-
 .navbar ul li:hover > ul{
-    display:block;
+    display: block;
 }
-
 .navbar button{
-    background-color: yellow;
-    color: black;
     width: 150px;
-    height: 55px;
-    font-size: 30px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
-    margin-left: 20px;
+    height: 65px;
+    margin-left: 90px;
+    background-color: aqua;
+    font-size: 33px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 .navbar button:hover{
+    background-color: yellow;
+    color: rgb(236, 13, 13);
+    font-size: 30px;
+
+}
+
+                     /* Header ar kaj sesh */
+
+
+
+                     /* Footer ar kaj suru */
+
+
+.form{
+
+    background-color: brown;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    font-size: 30px;
+
+}
+form{
+    width: 650px;
+    height: 500px;
+    background-color: rgb(196, 193, 193);
+    margin: 0px auto;
+    border-radius: 5%;
+    border-radius: 2px solid black;
+    
+}
+form h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(14, 13, 13);
+
+}
+form input{
     background-color: aqua;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+form .hhh{
+    padding: 8px 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+form .cheakbox{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
 }
 
 
-
-
-/* .logo h2{
-    font-size: 20px;
-    color: rgb(46, 63, 63);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    
-} */
