@@ -88,20 +88,16 @@ header{
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    height: 500px;
-    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    margin: 50px auto;
+    padding: 40px;
     font-size: 30px;
-
-}
-form{
-    width: 650px;
-    height: 500px;
-    background-color: rgb(196, 193, 193);
-    margin: 0px auto;
     border-radius: 5%;
-    border-radius: 2px solid black;
-    
+    border: 3px solid black;
+    box-shadow: 0 10px 25px 0  rgb(22, 204, 180), -7px -10px 0  rgb(155, 204, 22);
+
+
 }
 form h1{
     font-size: 60px;
