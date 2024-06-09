@@ -79,7 +79,7 @@ header{
 
 
 
-                     /* Footer ar kaj suru */
+                     /* Main  content ar kaj suru */
 
 
 .form{
@@ -127,3 +127,59 @@ form .cheakbox{
 }
 
 
+                       /* Main  content ar kaj sesh */
+
+
+
+                       /* Footer ar kaj suru */
+
+
+footer{
+    width: 95%;
+    background-color: #262626;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+footer .name{
+    font-size: 33px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px auto;
+}
+
+footer .text{
+    width: 800px;
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    font-weight: 500;
+    margin-top: -30px;
+}
+
+footer img{
+
+    background-color: rgb(168, 28, 180);
+    padding: 18px;
+    margin: 10px;
+    border-radius: 50px;
+}
+footer img:hover{
+    background-color: rgb(221, 207, 15);
+    padding: 20px;
+    transform: rotate(20deg);
+}
+
+footer .copyright{
+    background-color: black;
+    font-size: 23px;
+}
+
+
+                       /* Footer ar kaj sesh */
+
+    
