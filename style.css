@@ -226,6 +226,45 @@ footer .icon1 i:hover{
             margin-left: 4px;
         }
     
+        .form {
+            background-color: rgb(218, 95, 201);
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: fit-content;
+            height: fit-content;
+            margin: 50px auto;
+            padding: 1px;
+            font-size: 13px;
+            border-radius: 5%;
+            border: 1px solid black;
+            box-shadow: 0 10px 25px 0 rgb(204 177 22), -7px -10px 0 rgb(45 206 163);
+        }
+        form h1 {
+            font-size: 38px;
+            font-weight: bold;
+            color: rgb(14, 13, 13);
+        }
+        form input {
+            background-color: #f6ff00a3;
+            padding: 6px;
+            margin: 3px;
+            border-radius: 50px;
+            font-size: 16px;
+            color: black;
+        }
+        form .hhh {
+            padding: 4px 18px;
+            font-weight: bold;
+            font-size: 19px;
+        }
+        form .cheakbox {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-size: 13px;
+        }
 }             
 
     
