@@ -285,15 +285,31 @@ footer .icon1 i:hover{
 
 
 
+    footer .name {
+        font-size: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 41px auto;
+    }
+
+   
     footer .text {
-        width: 800px;
-        font-size: 10px;
+        width: 287px;
+        font-size: 14px;
         text-align: center;
         justify-content: center;
         align-items: center;
         margin: 10px auto;
         font-weight: 500;
         margin-top: -30px;
+    }
+    footer .icon1 i {
+        color: #e5f508;
+        font-size: 36px;
+        padding: 3px;
+    }
+    footer .copyright {
+        background-color: black;
+        font-size: 14px;
     }
 
 }       
