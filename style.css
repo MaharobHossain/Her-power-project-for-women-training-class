@@ -199,117 +199,103 @@ footer .icon1 i:hover{
 
     header{
         width: 100%;
-       background-color: rgb(161, 235, 42);
+       background-color: black;
        color: white;
-       margin: 0px auto;
+       margin: 0 auto;
     }
-    .logo h2{
-        font-size: 20px;
-        color: rgb(230, 2, 192);
-        margin-right: -25px;
-          }
+  
+    .navbar ul li {
+        background-color: rgb(233 223 5 / 89%);
+        width: 46px;
+        border: 1px solid rgb(255, 255, 255);
+        height: 21px;
+        text-align: center;
+        float: left;
+        color: rgb(0, 0, 0);
+        font-size: 8px;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        line-height: 28px;
+        margin-left: 1px;
+    }
+    .logo h2 {
+        font-size: 18px;
+        color: rgb(239 7 7);
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .navbar button {
+        width: 56px;
+        height: 27px;
+        margin-left: 20px;
+        background-color: aqua;
+        color: black;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 50px;
+    }
+    .navbar button:hover{
+        background-color: rgb(0, 4, 255);
+        color: rgb(255, 253, 253);
+        font-size: 14px;
+        border-radius: 50px;
+    }
 
-          .navbar button{
-            width: 70px;
-            height: 25px;
-            background-color: rgb(219, 24, 203);
-            font-size: 14px;
-            font-weight: bold;
-            margin-left: 10px;
-            border-radius: 50px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
-        
-        }
-        .navbar button:hover{
-            background-color: rgb(0, 255, 255);
-            color: black;
-            font-size: 15px;
-        }
-        .navbar ul li {
-            background-color: #262626;
-            width: 48px;
-            border: 1px solid #fff;
-            height: 25px;
-            text-align: center;
-            float: left;
-            color: white;
-            font-size: 9px;
-            font-weight: bold;
-            text-transform: uppercase;
-            position: relative;
-            line-height: 25px;
-            margin-left: 4px;
-        }
-       
-    
-        .form {
-            background-color: rgb(218, 95, 201);
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-            width: fit-content;
-            height: fit-content;
-            margin: 50px auto;
-            padding: 1px;
-            font-size: 13px;
-            border-radius: 5%;
-            border: 1px solid black;
-            box-shadow: 0 10px 25px 0 rgb(204 177 22), -7px -10px 0 rgb(45 206 163);
-        }
-        
-        form h1 {
-            font-size: 38px;
-            font-weight: bold;
-            color: rgb(14, 13, 13);
-        }
-        form input {
-            background-color: #f6ff00a3;
-            padding: 6px;
-            margin: 3px;
-            border-radius: 50px;
-            font-size: 16px;
-            color: black;
-        }
-        form .hhh {
-            padding: 4px 18px;
-            font-weight: bold;
-            font-size: 19px;
-        }
-        form .cheakbox {
-            display: flex;
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-            font-size: 13px;
-        }
 
-        footer h1{
-            font-size: 27px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            text-align: center;
-            margin-top: 30px;
-        }
-        footer .text{
-            width: 250px;
-            font-size: 13px;
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-            margin-top: -10px;
-        }
-        footer .icon1 i{
-            color: rgb(2, 153, 173);
-            font-size: 28px;
-            padding: 2px;
-        }
-        footer .icon1 i:hover{
-            color: tomato;
-            font-size: 30px;
-        }
-        footer .copyright{
-            background-color: rgb(15, 13, 13);
-            font-size: 17px;
-        }
+    form h1 {
+        font-size: 32px;
+        font-weight: bold;
+        color: rgb(0 0 0);
+    }
+    form input {
+        background-color: aqua;
+        padding: 5px;
+        margin: 3px;
+        border-radius: 50px;
+        font-size: 13px;
+    }
+    form .hhh {
+        padding: 5px 24px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    form .cheakbox {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
+    }
+    .form {
+        background-color: #930ddb;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        height: fit-content;
+        margin: 50px auto;
+        padding: 12px;
+        font-size: 30px;
+        border-radius: 5%;
+        border: 3px solid black;
+        box-shadow: 0 10px 25px 0 rgb(22, 204, 180), -7px -10px 0 rgb(155, 204, 22);
+    }
+
+
+
+    footer .text {
+        width: 800px;
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+        font-weight: 500;
+        margin-top: -30px;
+    }
+
 }       
 
 
