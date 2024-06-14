@@ -377,22 +377,22 @@ footer .icon1 i:hover{
             text-align: center;
             margin-top: 30px;
         }
-        footer .icon1 i{
+        /* footer .icon1 i{
             color: rgb(235, 219, 4);
             font-size: 45px;
             padding: 7px;
-        }
+        } */
         footer .icon1 i:hover{
             color: rgb(218, 3, 32);
             font-size: 47px;
         }
-        form input {
+        /* form input {
             background-color: aqua;
             padding: 14px;
             margin: 10px;
             border-radius: 50px;
             font-size: 22px;
-        }
+        } */
         .form {
             background-color: rgb(240, 74, 74);
             text-align: center;
